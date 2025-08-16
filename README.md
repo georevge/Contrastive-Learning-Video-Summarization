@@ -1,3 +1,4 @@
 # Contrastive Learning Video Summarization
 ## General architecture
-<img width="1953" height="1806" alt="image" src="https://github.com/user-attachments/assets/3e6864b3-b2cc-4380-a32d-f8620d0f0fe8" />
+
+<img width="1117" height="279" alt="Στιγμιότυπο οθόνης 2025-08-16 173034" src="https://github.com/user-attachments/assets/d1e1d3cc-75f3-41e3-b9f6-c8889868f269" />
