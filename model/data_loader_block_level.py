@@ -19,13 +19,13 @@ class VideoData(Dataset):
         """
         self.mode = mode
         self.name = video_type.lower()
-        self.datasets = ['/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/SumMe/vivit_summe_all.h5',
-                         '/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/TVSum/vivit_tvsum_all.h5',
-                         '/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/SumMe/eccv16_dataset_summe_google_pool5.h5',
-                         '/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/TVSum/eccv16_dataset_tvsum_google_pool5.h5']
-        self.datasets_cap = ['/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/SumMe/summe_cap_roberta_amt.h5',
-                             '/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/TVSum/tvsum_cap_roberta_amt.h5']
-        self.splits_filename = ['/home/gevge/Downloads/PGL-SUM-CAP/data/splits/' + self.name + '_splits.json']
+        self.datasets = [...,
+                         ...,
+                         ...,
+                         ...]
+        self.datasets_cap = [...,
+                             ...]
+        self.splits_filename = ['.../splits/' + self.name + '_splits.json']
         self.split_index = split_index  # it represents the current split (varies from 0 to 4)
 
         if 'summe' in self.splits_filename[0]:
