@@ -20,14 +20,12 @@ class VideoData(Dataset):
         """
         self.mode = mode
         self.name = video_type.lower()
-        self.initial_datasets = ['/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/SumMe/clip_summe.h5',
-                                '/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/TVSum/clip_tvsum.h5']
-        self.datasets_cap = ['/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/SumMe/text_features_clip_summe.h5',       # roberta new
-                             '/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/TVSum/text_features_clip_tvsum.h5']
-        #self.extended_datasets = ['/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/SumMe/SumMe_extended.h5',
-        #                          '/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/TVSum/TVSum_extended.h5']
-        self.splits_filename = ['/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/splits (training+val+test)/' + self.name + '_splits.json']
-        # self.train_keys_filename = ['/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/splits/' + self.name + '_train_keys.json']
+        self.initial_datasets = [...,
+                                ...]
+        self.datasets_cap = [..., ...]
+        #self.extended_datasets = ['..., ...]
+        self.splits_filename = ['/.../splits (training+val+test)/' + self.name + '_splits.json']
+        # self.train_keys_filename = ['.../splits/' + self.name + '_train_keys.json']
         self.split_index = split_index  # it represents the current split (varies from 0 to 4)
 
         if self.name == 'summe':
