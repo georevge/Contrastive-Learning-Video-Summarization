@@ -27,7 +27,7 @@ eval_method = args["eval"]
 
 results = [f for f in listdir(path) if f.endswith(".json") and not f.endswith("test.json")]
 results.sort(key=lambda video: int(video[6:-5]))
-dataset_path = '/home/gevge/Downloads/PGL-SUM-CAP-Embedding_space/data/' + dataset + '/eccv16_dataset_' + dataset.lower() + '_google_pool5.h5'
+dataset_path = '.../data/' + dataset + '/eccv16_dataset_' + dataset.lower() + '_google_pool5.h5'
 
 f_score_epochs = []
 epoch_number = -1
